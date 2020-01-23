@@ -1,0 +1,217 @@
+*{
+    
+    font-family: 'Playfair Display', serif;
+   
+}
+.header{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.logo{
+    width: 20%;
+    float: left;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.links{
+float: right;
+}
+.links ul{
+list-style: none;
+}
+.links ul li{
+    float: left;
+    margin-left: 80px;
+}
+.links ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.minimo{
+width: 95%;
+margin: auto;
+}
+.minimo img{
+width: 100%;
+margin-top: 30px;
+}
+.photodiary{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+.photodiary h5{
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.photodiary h1{
+    font-size: 38px; 
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.photodiary p{
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 34px;
+    margin-bottom: 48px;
+}
+.photodiary span{
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.lifestyle{
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.lifestyle img{
+    width: 100%;
+}
+.lifestyle h5{
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.lifestyle h1{
+    font-size: 26px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+.lifestyle p{
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    margin-top: 40px;
+    line-height: 1.7;
+}
+.single-lifestyle{
+    width: 45%;
+}
+.newsletter-section{
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 40vh;
+    margin-top: 80px;
+    text-align: center;
+}
+.newsletter-section h1{
+    padding-top: 70px;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 80px;
+    font-weight: 500;
+}
+.newsletter-section input{
+    border: none;
+    width: 20%;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid black;
+    padding: 6px;
+    position: relative;
+}
+.newsletter-section .address{
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+.newsletter-section img{
+    position: absolute;
+    margin-left: -33px;
+    margin-top: 7px;
+}
+
+.btn{
+    height: 260px;
+    text-align: center;
+    margin-top: 150px;
+}
+.btn input{
+    font-size: 20px;
+    color: #626262;
+    background-color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    border: none;
+    border: 2px solid #626262;
+}
+.btn input:hover{
+    color: black;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #b4ad9e;
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-content .privacy{
+    width: 20%;
+    color: black;
+}
+.footer-content .privacy ul{
+    list-style: none;
+    font-size: 14px;
+}
+.social-icon{
+    list-style: none;
+    width: 23%;
+
+}
+
+.social-icon ul{
+    list-style: none;
+}
+.social-icon ul li{
+    float: left;
+    margin-right: 26px;
+}
+.social-icon ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+.privacy{
+    width: 20%;
+}
+.footer-content .privacy ul{
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+.footer-content .privacy ul li{
+
+}
+.footer-content .privacy ul li a{
+    text-decoration: none;
+    float: left;
+    margin-right: 20px;
+    color: #000000;
+}
